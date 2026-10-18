@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rozita Pourashraf - Senior Frontend & UI Engineer</title>
+    <style>
+        :root {
+            --primary: #1e293b;
+            --accent: #2563eb;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+            --text: #334155;
+            --heading: #0f172a;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            max-width: 860px;
+            margin: 40px auto;
+            padding: 0 24px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--heading);
+            font-size: 2.2rem;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+
+        .meta {
+            font-size: 0.95rem;
+            color: #64748b;
+        }
+
+        h2 {
+            color: var(--heading);
+            font-size: 1.4rem;
+            margin-top: 36px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--accent);
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            margin: 8px 0;
+            font-size: 0.98rem;
+        }
+
+        .arts-box {
+            background: #f1f5f9;
+            border-left: 4px solid var(--accent);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 20px;
+            font-style: italic;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: #94a3b8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rozita Pourashraf</h1>
+        <div class="subtitle">Senior Frontend & UI Engineer | Design Systems, Accessibility & Component Architecture</div>
+        <div class="meta">📍 Munich, Germany | ✉️ pourashraf@gmail.com | 🔗 <a href="https://linkedin.com" target="_blank">LinkedIn Profile</a></div>
+    </header>
+
+    <section>
+        <h2>1. Executive Summary</h2>
+        <p>Experienced frontend specialist with a strong background in large-scale web-shop architectures and multi-brand platforms in the German e-commerce and ticketing ecosystem.</p>
+        <ul>
+            <li><strong>Core Focus:</strong> UI component engineering, design systems, design tokens, and WCAG accessibility compliance.</li>
+            <li><strong>AI-Assisted Workflow:</strong> Active utilization of AI tools (Claude Code) for component creation, code refactoring, and quality assurance with human-in-the-loop oversight.</li>
+            <li><strong>Approach:</strong> Passionate about component-driven development, scalable architecture, incremental modernization of legacy systems, and bridging the gap between design and engineering.</li>
+            <li><strong>What I value:</strong> Clean code, maintainability, performance, and user-centered digital experiences.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. Core Expertise & Technical Stack</h2>
+        <ul>
+            <li><strong>Frontend & Architecture:</strong> React.js, TypeScript, JavaScript (Vanilla ES6+), Component-Driven Development, Atomic Design, Design Tokens.</li>
+            <li><strong>Styling & Templating:</strong> CSS/LESS, Sass, BEM, Tailwind CSS, Twig, Symfony Templates.</li>
+            <li><strong>Quality & Accessibility:</strong> WCAG 2.1/2.2 AA Compliance, ARIA patterns, ESLint, Prettier, Screen Reader Testing (VoiceOver).</li>
+            <li><strong>AI & Tooling:</strong> Claude Code (Workflow Acceleration & Refactoring), Git, BrowserStack, Jira, Confluence, Agile/Scrum.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Architectural Case Studies & Problem Solving</h2>
+
+        <div class="card">
+            <h3>Case Study 1: Incremental Legacy Modernization Without Downtime</h3>
+            <p><strong>The Challenge:</strong> Transitioning a massive production codebase away from legacy jQuery and server-rendered templates across high-traffic consumer webshops while keeping live operations stable for millions of users.</p>
+            <p><strong>My Mindset & Approach:</strong> Incremental modernization rather than risky "big-bang" rewrites. I removed legacy jQuery dependencies piece by piece, rewrote key scripts in clean Vanilla JavaScript for optimal performance, and built complex interactive UI flows as isolated React/TypeScript applications embedded directly into existing pages.</p>
+            <p><strong>The Result:</strong> Continuous stack modernization, significantly lighter front-end bundles, and reduced technical debt without interrupting live business operations.</p>
+        </div>
+
+        <div class="card">
+            <h3>Case Study 2: Scaling Multi-Brand Design Systems & Accessibility</h3>
+            <p><strong>The Challenge:</strong> Ensuring consistent branding, design tokens, and strict accessibility (WCAG) compliance across dozens of distinct partner webshops sharing a single codebase.</p>
+            <p><strong>My Mindset & Approach:</strong> "Fix the root cause, not just the symptom." Instead of writing one-off overrides per page or per shop, I concentrated efforts at the shared core component layer. I utilized design tokens, clearly named component variants, and robust ARIA patterns so that a single fix or improvement instantly propagated across all connected webshops.</p>
+            <p><strong>The Result:</strong> Drastically reduced code duplication, high maintainability, and default compliance with accessibility standards (WCAG 2.1/2.2 AA) for all partner brands.</p>
+        </div>
+
+        <div class="card">
+            <h3>Case Study 3: Platform-Wide Accessibility (WCAG/EAA) Overhauls at Scale</h3>
+            <p><strong>The Challenge:</strong> Fixing uneven accessibility and screen-reader support across thousands of B2C webshops and high-profile partner portals.</p>
+            <p><strong>My Mindset & Approach:</strong> Treating accessibility as a structural default rather than an afterthought. Systematically updating semantic HTML structures, restructuring heading hierarchies (h1-h6), enhancing visible focus states, and integrating rigorous keyboard-navigation and screen-reader reviews into the core code review process.</p>
+            <p><strong>The Result:</strong> Standardized, accessible portals that comply with modern European Accessibility Act (EAA) and WCAG guidelines across all shared components simultaneously.</p>
+        </div>
+
+        <div class="card">
+            <h3>Case Study 4: Multi-Theme White-Label Architecture & Inheritance</h3>
+            <p><strong>The Challenge:</strong> Managing dozens of distinct theme bundles and white-label shops (for sports federations, major sporting events, clubs, venues, and regional ticketing services) without turning the repository into unmaintainable, fragmented forks.</p>
+            <p><strong>My Mindset & Approach:</strong> Leveraging Symfony bundle inheritance and YAML configurations combined with a strict shared-core architecture. Theme-specific bundles were kept thin, overriding only branding and specific options, while core features lived in a unified system.</p>
+            <p><strong>The Result:</strong> An improvement made once automatically benefited over 7,000+ shops, keeping regressions to a minimum and drastically reducing maintenance overhead.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>4. Creative Pursuits & Arts</h2>
+        <div class="arts-box">
+            Alongside software engineering and component architecture, I am an interactive art creator, intuitive acrylic painter, and pianist. This artistic background strongly fuels my intuition for visual UI hierarchy, color theory, design systems, and user-centered empathy.
+        </div>
+    </section>
+
+    <footer>
+        This portfolio summarizes my professional focus and technical competencies at a high level. It contains no source code, credentials, customer data or proprietary business logic.
+    </footer>
+
+</body>
+</html>
