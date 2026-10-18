@@ -1,7 +1,7 @@
-# Rozita Pourashraf
+# Rosita Pourashraf
 **Senior Frontend & UI Engineer | Design Systems, Accessibility & Component Architecture**
 
-📍 Munich, Germany | ✉️ pourashraf@gmail.com | 🔗 [LinkedIn Profile](https://linkedin.com)
+📍 Munich, Germany | 🔗 [LinkedIn Profile](https://linkedin.com)
 
 ---
 
